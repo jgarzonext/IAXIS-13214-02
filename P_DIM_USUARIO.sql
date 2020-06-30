@@ -2,7 +2,7 @@ create or replace PROCEDURE p_dim_usuario
 IS
     v_usu_id        NUMBER;
     v_fec_reg   DATE := TRUNC (sysdate);
-
+--Testing
 
     CURSOR cur_usuario IS
 
